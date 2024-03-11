@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #1a0909bb; /* Color de fondo */
+}
+
+.navbar-brand {
+    color: #e71717; /* Color del texto del enlace */
+    font-family: 'Quicksand', sans-serif; /* Fuente */
+    font-weight: lighter; /* Grosor de la fuente */
+    font-size: 19px; /* Tamaño de la fuente */
+    text-transform: uppercase; /* Transformación de texto a mayúsculas */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Color del icono del botón desplegable */
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.menu {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cm div {
+    width: 17px;
+    height: 1.5px;
+    background: #fff;
+    margin: 5px 0;
+}
+
+.logo {
+    color: #fff;
+    padding: 0 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.dropdowm {
+    background: #222;
+    overflow: hidden;
+    height: 0;
+    transition: height 350ms;
+}
+
+.item_code345 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.item_code345 a {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+.fm {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    right: 0;
+}
+
+.fm span {
+    background: #7cb342;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 1.5px;
+    margin-right: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.fm span a {
+    color: #fff;
+    text-decoration: none;
+}
